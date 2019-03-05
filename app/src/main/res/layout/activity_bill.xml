@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.senani.priceapp.BillActivity">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view"
+        android:layout_below="@+id/search"
+        android:clickable="false"
+        android:divider="@null"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:layout_above="@+id/bottom"
+        >
+
+    </ListView>
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/search"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/list_item_bg"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#E9222E"
+        android:id="@+id/bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:textColor="#fff"
+            android:layout_marginLeft="25dp"
+            android:textSize="15dp"
+            android:layout_alignBottom="@+id/tv_total"
+            android:id="@+id/tv_total1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.0"
+            android:textColor="#fff"
+            android:layout_marginTop="7dp"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/tv_total"
+            android:layout_marginRight="25dp"
+
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_total1"
+            android:background="#00a73b"
+            android:layout_marginTop="7dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="clear"
+                android:id="@+id/btn_clear"
+                android:background="@drawable/button_selector2"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bill"
+                android:background="@drawable/button_selector2"
+                android:textColor="#fff"
+                android:id="@+id/btn_bill"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

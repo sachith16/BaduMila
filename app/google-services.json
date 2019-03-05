@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1092668518884",
+    "firebase_url": "https://pricelist-6f92f.firebaseio.com",
+    "project_id": "pricelist-6f92f",
+    "storage_bucket": "pricelist-6f92f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092668518884:android:8129cf24939929f9",
+        "android_client_info": {
+          "package_name": "org.senani.priceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092668518884-gej2stu4q1k8vs3vj3aue8742kut3u7v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.senani.priceapp",
+            "certificate_hash": "fbce0acdac07327c0787e1a40d675e568dcec5d0"
+          }
+        },
+        {
+          "client_id": "1092668518884-e67uv8s4csk1nliljgm4avj393rg2dhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeA_W0oBPg87EPtkRNJvoaHTZ2tB2PGpE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092668518884-e67uv8s4csk1nliljgm4avj393rg2dhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
